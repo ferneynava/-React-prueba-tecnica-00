@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+section img {
+    max-width: 320px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+}
